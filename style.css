@@ -25,8 +25,8 @@
 }
 
 .elements {
-    width: 1320px;
     height: 806px;
+    width: 1320px;
     background: #F4FAFD;
     border: 1px solid #F4FAFD;
     border-radius: 5px;
@@ -48,4 +48,35 @@
 .separate-sec {
     display: flex;
     flex-direction: column;
+}
+
+@media only screen and (max-width: 576px) {
+    .display {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 100px;
+    }
+
+    .elements {
+        width: 334px;
+        height: 800px;
+        background: #F4FAFD;
+        border: 1px solid #F4FAFD;
+        border-radius: 5px;
+    }
+
+    .text-alignment {
+        width: 100%;
+        height: 546px;
+        left: 800px;
+        top: 2242px;
+    }
+
+    .image {
+        width: 334px;
+        height: 300px;
+        margin-left: 201px;
+    }
+
 }
