@@ -1,6 +1,17 @@
+/* body-aligghment */
+body {
+    margin: 50px;
+}
+
 /* for header banner */
 .filter {
     filter: brightness(70%);
+}
+
+@media only screen and (max-width: 988px) {
+    .filter {
+        height: 500px;
+    }
 }
 
 .img-sizing {
@@ -13,7 +24,7 @@
 }
 
 .card-body-width {
-    width: 800px;
+    width: 100%;
 }
 
 /* for details section */
@@ -202,4 +213,14 @@
         display: block;
         display: none;
     }
+}
+
+/* icon style */
+.checked {
+    color: orange;
+}
+
+.column-gap {
+    gap: 500px;
+    margin-bottom: 20px;
 }
