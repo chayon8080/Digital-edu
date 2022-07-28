@@ -1,0 +1,9 @@
+/* for header banner */
+.filter {
+    filter: brightness(70%);
+}
+
+.img-sizing {
+    height: 200px;
+    width: 200px;
+}
